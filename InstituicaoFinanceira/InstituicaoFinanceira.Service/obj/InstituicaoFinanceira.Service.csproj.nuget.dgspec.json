@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Service\\InstituicaoFinanceira.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Domain\\InstituicaoFinanceira.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Domain\\InstituicaoFinanceira.Domain.csproj",
+        "projectName": "InstituicaoFinanceira.Domain",
+        "projectPath": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Domain\\InstituicaoFinanceira.Domain.csproj",
+        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.60.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Infra.Data\\InstituicaoFinanceira.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Infra.Data\\InstituicaoFinanceira.Infra.Data.csproj",
+        "projectName": "InstituicaoFinanceira.Infra.Data",
+        "projectPath": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Infra.Data\\InstituicaoFinanceira.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Domain\\InstituicaoFinanceira.Domain.csproj": {
+                "projectPath": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Domain\\InstituicaoFinanceira.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.60.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Service\\InstituicaoFinanceira.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Service\\InstituicaoFinanceira.Service.csproj",
+        "projectName": "InstituicaoFinanceira.Service",
+        "projectPath": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Service\\InstituicaoFinanceira.Service.csproj",
+        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Domain\\InstituicaoFinanceira.Domain.csproj": {
+                "projectPath": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Domain\\InstituicaoFinanceira.Domain.csproj"
+              },
+              "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Infra.Data\\InstituicaoFinanceira.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\bruno\\Desktop\\pontoSys\\TesteInstituicaoFinanceira\\InstituicaoFinanceira\\InstituicaoFinanceira.Infra.Data\\InstituicaoFinanceira.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.60.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

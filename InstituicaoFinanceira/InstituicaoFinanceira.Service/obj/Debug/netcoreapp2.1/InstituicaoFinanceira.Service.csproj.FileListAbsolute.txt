@@ -1,0 +1,14 @@
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.deps.json
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.dll
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.pdb
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.AssemblyInfoInputs.cache
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.AssemblyInfo.cs
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.dll
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.pdb
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Domain.dll
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Infra.Data.dll
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Domain.pdb
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.csprojAssemblyReference.cache
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Infra.Data.pdb
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Service\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.csproj.CopyComplete
