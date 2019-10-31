@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "617ee6dac4dff1ca599285c99729beeb7a459a52"
+    "signature": "8974f053072d78abd094f67f86ba8ea284a3b5fb"
   },
   "compilationOptions": {
     "defines": [
@@ -36,51 +36,6 @@
         },
         "compile": {
           "InstituicaoFinanceira.Aplication.dll": {}
-        }
-      },
-      "FluentValidation/8.5.0": {
-        "dependencies": {
-          "System.ComponentModel.Annotations": "4.5.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FluentValidation.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.5.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/FluentValidation.dll": {}
-        }
-      },
-      "FluentValidation.AspNetCore/8.5.0": {
-        "dependencies": {
-          "FluentValidation": "8.5.0",
-          "FluentValidation.DependencyInjectionExtensions": "8.5.0",
-          "Microsoft.AspNetCore.Mvc": "2.1.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FluentValidation.AspNetCore.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.5.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/FluentValidation.AspNetCore.dll": {}
-        }
-      },
-      "FluentValidation.DependencyInjectionExtensions/8.5.0": {
-        "dependencies": {
-          "FluentValidation": "8.5.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.5.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -606,7 +561,6 @@
       },
       "InstituicaoFinanceira.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidation.AspNetCore": "8.5.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.1",
           "Microsoft.EntityFrameworkCore": "2.1.1",
@@ -622,7 +576,6 @@
       },
       "InstituicaoFinanceira.Infra.Data/1.0.0": {
         "dependencies": {
-          "FluentValidation.AspNetCore": "8.5.0",
           "InstituicaoFinanceira.Domain": "1.0.0",
           "MySqlConnector": "0.60.3",
           "Pomelo.EntityFrameworkCore.MySql": "2.1.1"
@@ -636,7 +589,6 @@
       },
       "InstituicaoFinanceira.Service/1.0.0": {
         "dependencies": {
-          "FluentValidation.AspNetCore": "8.5.0",
           "InstituicaoFinanceira.Domain": "1.0.0",
           "InstituicaoFinanceira.Infra.Data": "1.0.0",
           "MySqlConnector": "0.60.3",
@@ -3599,27 +3551,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "FluentValidation/8.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gH9TOcn/l4WEG+h17z9sOPUf8rYX2NKBZ4hQjdPQWLeSyGlUiTCVVv6Dmpg2573Wtl2u1y11YmmhUO31gcZkeQ==",
-      "path": "fluentvalidation/8.5.0",
-      "hashPath": "fluentvalidation.8.5.0.nupkg.sha512"
-    },
-    "FluentValidation.AspNetCore/8.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-D0rR/221hH96QS1OJUBs4ZXlFslOOB4qfVOLcPEf09vjsaI8H29oGWWFi4iawVz1Jstam/ap58RJly6qkZWALA==",
-      "path": "fluentvalidation.aspnetcore/8.5.0",
-      "hashPath": "fluentvalidation.aspnetcore.8.5.0.nupkg.sha512"
-    },
-    "FluentValidation.DependencyInjectionExtensions/8.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-C06aJuXUO15IDWoIXwZlRMNguk19jhyDU5uWUvjhp4692dOTnHSDqwJ9xpeuuo0l0Th+uzdgP5+BXZSRZnR5Gw==",
-      "path": "fluentvalidation.dependencyinjectionextensions/8.5.0",
-      "hashPath": "fluentvalidation.dependencyinjectionextensions.8.5.0.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",

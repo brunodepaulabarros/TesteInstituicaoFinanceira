@@ -1,3 +1,9 @@
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.csprojAssemblyReference.cache
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.RazorAssemblyInfo.cache
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.RazorAssemblyInfo.cs
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.AssemblyInfoInputs.cache
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.AssemblyInfo.cs
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.deps.json
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.runtimeconfig.json
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.runtimeconfig.dev.json
@@ -7,14 +13,8 @@ C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Infra.Data.dll
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.dll
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Domain.pdb
-C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Infra.Data.pdb
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Service.pdb
-C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.csprojAssemblyReference.cache
-C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.csproj.CoreCompileInputs.cache
-C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.RazorAssemblyInfo.cache
-C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.RazorAssemblyInfo.cs
-C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.AssemblyInfoInputs.cache
-C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.AssemblyInfo.cs
+C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\bin\Debug\netcoreapp2.1\InstituicaoFinanceira.Infra.Data.pdb
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.RazorTargetAssemblyInfo.cache
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.csproj.CopyComplete
 C:\Users\bruno\Desktop\pontoSys\TesteInstituicaoFinanceira\InstituicaoFinanceira\InstituicaoFinanceira.Aplication\obj\Debug\netcoreapp2.1\InstituicaoFinanceira.Aplication.dll

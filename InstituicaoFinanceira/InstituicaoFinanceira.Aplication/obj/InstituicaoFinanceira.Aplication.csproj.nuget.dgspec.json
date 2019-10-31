@@ -113,10 +113,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[8.5.0, )"
-            },
             "Microsoft.AspNetCore.App": {
               "target": "Package",
               "version": "[2.1.1, )"
@@ -193,10 +189,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[8.5.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -264,10 +256,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[8.5.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

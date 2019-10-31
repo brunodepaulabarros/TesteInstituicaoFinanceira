@@ -1,5 +1,4 @@
 ﻿using InstituicaoFinanceira.Service.Services;
-using InstituicaoFinanceira.Service.Validators;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
@@ -9,14 +8,21 @@ namespace InstituicaoFinanceira.Aplication.Controllers
     [ApiController]
     public class TransactionController : ControllerBase
     {
-        private BaseService<Transaction> service = new BaseService<Transaction>();
+        private TransactionService<Transaction> service = new TransactionService<Transaction>();
 
         [HttpPost]
         public IActionResult Post([FromBody] Transaction transaction)
         {
             try
             {
-                service.Post<TransactionValidator>(transaction);
+                if (transaction.Value == 0)
+                    throw new ArgumentException("O valor não pode ser 0.");
+                if (transaction.Description == ""|| transaction.Description == null)
+                    throw new ArgumentException("Informe a descrição.");
+
+                transaction.Created_at = DateTime.Now;
+                
+                service.Post(transaction);
 
                 return new ObjectResult(transaction.Id);
             }
@@ -35,8 +41,7 @@ namespace InstituicaoFinanceira.Aplication.Controllers
         {
             try
             {
-                return Ok();
-                //return new ObjectResult(service.Get());
+                return new ObjectResult(service.GetAll());
             }
             catch (Exception ex)
             {
