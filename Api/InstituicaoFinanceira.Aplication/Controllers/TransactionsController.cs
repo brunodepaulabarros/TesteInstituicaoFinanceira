@@ -6,9 +6,9 @@ namespace InstituicaoFinanceira.Aplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TransactionController : ControllerBase
+    public class TransactionsController : ControllerBase
     {
-        private TransactionService<Transaction> serviceTransaction = new TransactionService<Transaction>();
+        private TransactionService<Transaction> transactionService = new TransactionService<Transaction>();
 
         [HttpPost]
         public IActionResult Post([FromBody] Transaction transaction)
@@ -22,13 +22,9 @@ namespace InstituicaoFinanceira.Aplication.Controllers
 
                 transaction.Created_at = DateTime.Now;
 
-                serviceTransaction.Post(transaction);
+                transactionService.Post(transaction);
 
                 return new ObjectResult(transaction.Id);
-            }
-            catch (ArgumentNullException ex)
-            {
-                return NotFound(ex);
             }
             catch (Exception ex)
             {
@@ -39,29 +35,26 @@ namespace InstituicaoFinanceira.Aplication.Controllers
         [HttpGet]
         public IActionResult Get([FromQuery] string tipoRequisicao)
         {
-            if (tipoRequisicao == "Extrato")
+            try
             {
-                try
+                if (tipoRequisicao == "Extrato")
                 {
-                    return new ObjectResult(serviceTransaction.GetAll());
+
+                    return new ObjectResult(transactionService.GetAll());
+
                 }
-                catch (Exception ex)
+                if (tipoRequisicao == "Saldo")
                 {
-                    return BadRequest(ex);
+
+                    return new ObjectResult(transactionService.SelectBalance());
                 }
+                return BadRequest();
             }
-            if (tipoRequisicao == "Saldo")
+
+            catch (Exception ex)
             {
-                try
-                {
-                    return new ObjectResult(serviceTransaction.SelectBalance());
-                }
-                catch (Exception ex)
-                {
-                    return BadRequest(ex);
-                }
+                return BadRequest(ex);
             }
-            return Ok();
         }
     }
 }

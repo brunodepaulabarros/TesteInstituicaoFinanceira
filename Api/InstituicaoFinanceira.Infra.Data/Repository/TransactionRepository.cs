@@ -1,6 +1,5 @@
 ﻿using InstituicaoFinanceira.Infra.Data.Context;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace InstituicaoFinanceira.Infra.Data.Repository
@@ -8,20 +7,20 @@ namespace InstituicaoFinanceira.Infra.Data.Repository
     public class TransactionRepository<T> : BaseRepository<T> where T : Transaction
     {
         private MySqlContext context = new MySqlContext();
-        public double SelectBirthdayValue( DateTime date)
+        public double SelectBirthdayValue(DateTime date)
         {
-            var query = context.Transaction
-                      .Where(b =>  b.Created_at <= date)
+            var queryResult = context.Transaction
+                      .Where(b => b.Created_at <= date)
                       .ToList().Sum((t => t.Value));
 
-            return query;
+            return queryResult;
         }
         public double SelectBalance()
         {
-            var query = context.Transaction                      
+            var queryResult = context.Transaction
                       .ToList().Sum((t => t.Value));
 
-            return query;
+            return queryResult;
         }
     }
 }

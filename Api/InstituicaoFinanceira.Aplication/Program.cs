@@ -1,14 +1,12 @@
-﻿using System.Threading;
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
 namespace InstituicaoFinanceira.Aplication
 {
     public class Program
     {
-        private static Timer timer;
         public static void Main(string[] args)
-        {  
+        {
             CreateWebHostBuilder(args).Build().Run();
         }
 
