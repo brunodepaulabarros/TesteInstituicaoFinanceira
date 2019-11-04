@@ -36,6 +36,11 @@ namespace InstituicaoFinanceira.Aplication
                 app.UseHsts();
             }
 
+            app.UseCors(option => {
+                option.AllowAnyOrigin();
+                option.AllowAnyHeader();
+                option.AllowAnyMethod();
+            });
             app.UseHttpsRedirection();
             app.UseMvc();
             CheckBirthday(); // Inicia função que através de um timer, verifica qual dia da semana.

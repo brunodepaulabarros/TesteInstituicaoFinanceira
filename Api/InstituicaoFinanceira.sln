@@ -21,7 +21,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstituicaoFinanceira.Infra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstituicaoFinanceira.Aplication", "InstituicaoFinanceira.Aplication\InstituicaoFinanceira.Aplication.csproj", "{431C1C9A-301E-4EB8-8F57-A905CC1976FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstituicaoFinanceira.Aplication.Test", "InstituicaoFinanceira.Aplication.Test\InstituicaoFinanceira.Aplication.Test.csproj", "{4AA841CB-DC7D-4870-A155-69E3E8371102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstituicaoFinanceira.Aplication.Test", "InstituicaoFinanceira.Aplication.Test\InstituicaoFinanceira.Aplication.Test.csproj", "{4AA841CB-DC7D-4870-A155-69E3E8371102}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - DB", "0 - DB", "{776D4102-9556-46DD-99EC-48E3B44D866A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-11-2019", "04-11-2019", "{4D43F2DD-5B71-470D-BC0B-58BD29119737}"
+	ProjectSection(SolutionItems) = preProject
+		Script.txt = Script.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +67,7 @@ Global
 		{BAA404E5-BA95-4DA2-8DCB-D122880981CC} = {8F7CE382-7432-448C-9750-26277F8CEFE1}
 		{431C1C9A-301E-4EB8-8F57-A905CC1976FE} = {815E365B-C3B7-4F8D-A15C-C66FEDBFE3D7}
 		{4AA841CB-DC7D-4870-A155-69E3E8371102} = {815E365B-C3B7-4F8D-A15C-C66FEDBFE3D7}
+		{4D43F2DD-5B71-470D-BC0B-58BD29119737} = {776D4102-9556-46DD-99EC-48E3B44D866A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CEC35FF3-2865-43AB-A525-A65A8483F119}

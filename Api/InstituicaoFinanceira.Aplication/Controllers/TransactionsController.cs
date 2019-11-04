@@ -4,6 +4,10 @@ using System;
 
 namespace InstituicaoFinanceira.Aplication.Controllers
 {
+    class Balance
+    {
+        public double value { get; set; }
+    }
     [Route("api/[controller]")]
     [ApiController]
     public class TransactionsController : ControllerBase
@@ -45,8 +49,10 @@ namespace InstituicaoFinanceira.Aplication.Controllers
                 }
                 if (tipoRequisicao == "Saldo")
                 {
-
-                    return new ObjectResult(transactionService.SelectBalance());
+                    Balance balance = new Balance();
+                    var result = transactionService.SelectBalance();
+                    balance.value = result;
+                    return new ObjectResult(balance);
                 }
                 return BadRequest();
             }

@@ -26,7 +26,7 @@ namespace InstituicaoFinanceira.Service.Services
 
         public IList<T> GetAll()
         {
-            return repository.SelectAll();
+            return repository.SelectAll() ;
         }
 
         public T Post(T obj)
