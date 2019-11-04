@@ -59,3 +59,5 @@ typings/
 
 # next.js build output
 .next
+/InstituicaoFinanceira/.vs/InstituicaoFinanceira/v16/Server/sqlite3
+/Api/.vs/InstituicaoFinanceira/v16/Server/sqlite3
