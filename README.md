@@ -1,6 +1,6 @@
 # Teste instituição financeira
 
-Teste realizado referente ao desafio do repositório [GitHub](https://github.com/elvislimap/PontoSys-ProcessoSeletivo/blob/master/instituicao_financeira.md)
+Projeto realizado referente ao desafio do repositório [GitHub](https://github.com/elvislimap/PontoSys-ProcessoSeletivo/blob/master/instituicao_financeira.md)
 
 # <h1>Configurações.</h1>
 
